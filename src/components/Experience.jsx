@@ -2,14 +2,13 @@ import { CameraControls, Float, Gltf, Stats } from "@react-three/drei";
 import { Bloom, EffectComposer } from "@react-three/postprocessing";
 import { useRef } from "react";
 import { VFXParticles, VFXEmitter } from "lazy-vfx";
-import { degToRad } from "three/src/math/MathUtils";
-import Fireworks from "./FIreworks";
 import { GradientSky } from "./GradientSky";
 import { MeshBasicMaterial } from "three";
 import { Leva, useControls } from "leva";
 import { Cloud, Clouds } from "@react-three/drei";
 import { useEffect } from "react";
 import { useFireworks } from "../hooks/useFireworks";
+import Fireworks from "./Fireworks";
 
 
 export const Experience = () => {
